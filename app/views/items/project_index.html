@@ -1,7 +1,8 @@
-<h1>all items index<h1>
+<h1>all projects index<h1>
+
 
 <% @items.each do |item| %>
 	<h1><%= item.id %></h1>
 	<h1><%= item.title %></h1>
-	<h1><%= item.types %></h1>
+	<h1><%= @type %></h1>
 <% end %>

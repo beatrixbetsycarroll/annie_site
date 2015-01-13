@@ -57,4 +57,16 @@ Rails.application.routes.draw do
   root :to => 'pages#index'
 
   get 'pages/about', to: 'pages#about', as:'about'
+
+  # get 'items/creator/index', to: 'items#creator#index', as:'creator'
+
+  # get 'items/index', to: 'items#index', as:'index'
+
+  get 'items/project_index', to: 'items#project_index', as:'projects'
+
+  # get 'items/project_director_items/index', to: 'items#projects', as:'project_director'
+  # resources :items
+
+  get 'items/feature_index', to: 'items#feature_index', as:'features'
+
 end
