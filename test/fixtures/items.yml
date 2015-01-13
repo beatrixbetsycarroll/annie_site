@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  source: MyString
+  media_1: MyString
+  media_2: MyString
+  media_3: MyString
+  media_4: MyString
+  media_5: MyString
+  description: MyText
+  date: MyString
+  link: MyText
+
+two:
+  title: MyString
+  source: MyString
+  media_1: MyString
+  media_2: MyString
+  media_3: MyString
+  media_4: MyString
+  media_5: MyString
+  description: MyText
+  date: MyString
+  link: MyText

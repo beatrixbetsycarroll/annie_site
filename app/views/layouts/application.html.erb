@@ -7,8 +7,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	
+	<ul class="nav nav-tabs nav-justified">
+		<li role="presentation" class="active"><a href="/pages/about">about</a></li>
+		<li role="presentation"><a href="#">creator</a></li>
+		<li role="presentation"><a href="#">fashion expert</a></li>
+		<li role="presentation"><a href="poet_items#index">poet</a></li>
+		<li role="presentation"><a href="#">press</a></li>
+		<li role="presentation"><a href="#">videos</a></li>
+		<li role="presentation"><a href="#">gallery</a></li>
+
+	</ul>
+<div class="container">
 
 <%= yield %>
-
+</div>
 </body>
 </html>
