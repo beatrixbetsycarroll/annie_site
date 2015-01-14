@@ -1,0 +1,14 @@
+<%= render 'press_nav' %>
+
+<div class="container">
+
+	<h1>all features index</h1>
+
+	<% if !@features.nil? %>
+		<% @features.each do |feature| %>
+			<h1><%= feature.id %></h1>
+			<h1><%= feature.title %></h1>
+		<% end %>
+	<% end %>
+
+</div>

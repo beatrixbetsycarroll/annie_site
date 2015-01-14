@@ -1,0 +1,25 @@
+	
+<%= render 'press_nav' %>
+
+<div class="container">
+
+	<h1>all interviews index</h1>
+
+
+	<% if !@interviews.nil? %>
+		<% @interviews.each do |interview| %>
+
+		<div class="row">
+		  <div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      
+		      <%= image_tag interview.photo_url %>
+		    </a>
+		  </div>
+		</div>
+
+			<h1><%= interview.id %></h1>
+			<h1><%= interview.title %></h1>
+		<% end %>
+	<% end %>
+</div>

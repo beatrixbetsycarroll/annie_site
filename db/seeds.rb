@@ -16,18 +16,11 @@
 
 ## TYPES
 
-project = Type.create(name: "project")
-fashion = Type.create(name: "fashion")
-video = Type.create(name: "video")
-feature = Type.create(name: "feature")
-interview = Type.create(name: "interview")
-other_press = Type.create(name: "other_press")
 
-## PRESS
+# Item.create(title: "Young Guns: Fashion Kids on the Rise", source: "LuckyMag", media_1: "string", media_2: "string", media_3: "string", media_4: "string", media_5: "string", description: "text", date: "string", link: "http://www.luckymag.com/style/2012/06/Young-Guns-Fashion-Kids-on-the-Rise").types << feature
 
-## Features
 
-Item.create(title: "Young Guns: Fashion Kids on the Rise", source: "LuckyMag", media_1: "string", media_2: "string", media_3: "string", media_4: "string", media_5: "string", description: "text", date: "string", link: "http://www.luckymag.com/style/2012/06/Young-Guns-Fashion-Kids-on-the-Rise").types << feature
+Press.create(photo_url: "luckymag.jpg", title: "Young Guns: Fashion Kids on the Rise", source: "LuckyMag", description: "Our favorite young people making moves in the fashion space.", date: "2014", link: "http://www.luckymag.com/style/2012/06/Young-Guns-Fashion-Kids-on-the-Rise", feature: false, interview: true, other: false)
 
 
 

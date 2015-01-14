@@ -1,0 +1,14 @@
+	
+<%= render 'press_nav' %>
+
+<div class="container">
+
+	<h1>all others index</h1>
+
+	<% if !@others.nil? %>
+		<% @others.each do |other| %>
+			<h1><%= other.id %></h1>
+			<h1><%= others.title %></h1>
+		<% end %>
+	<% end %>
+</div>

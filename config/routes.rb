@@ -62,11 +62,14 @@ Rails.application.routes.draw do
 
   # get 'items/index', to: 'items#index', as:'index'
 
-  get 'items/project_index', to: 'items#project_index', as:'projects'
+  get 'projects/project_index', to: 'projects#project_index', as:'projects'
 
   # get 'items/project_director_items/index', to: 'items#projects', as:'project_director'
   # resources :items
 
-  get 'items/feature_index', to: 'items#feature_index', as:'features'
+  get 'presses/press_index', to: 'presses#press_index', as:'press'
+  get 'presses/features', to: 'presses#features', as:'features'
+  get 'presses/interviews', to: 'presses#interviews', as:'interviews'
+  get 'presses/other', to: 'presses#other', as:'other'
 
 end
