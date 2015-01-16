@@ -1,0 +1,12 @@
+
+body { 
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
+.set_background {
+	min-height: 100%;
+	min-width: 100%;
+}
+

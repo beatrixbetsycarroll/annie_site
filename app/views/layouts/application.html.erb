@@ -2,14 +2,14 @@
 <html>
 <head>
   <title>AnnieSite</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 	
 	<ul class="nav nav-tabs nav-justified">
-		<li role="presentation" class="active"><a href="/pages/about">about</a></li>
+		<li role="presentation"><a href="/pages/about">about</a></li>
 		<li role="presentation"><a href="/projects/project_index">projects</a></li>
 		<li role="presentation"><a href="/items/fashion_index">fashion expert</a></li>
 		<li role="presentation"><a href="poet_items#index">poet</a></li>

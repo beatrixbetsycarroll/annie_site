@@ -54,7 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  root :to => 'pages#index'
+  root :to => 'pages#about'
 
   get 'pages/about', to: 'pages#about', as:'about'
 
