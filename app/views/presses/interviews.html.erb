@@ -5,21 +5,21 @@
 
 	<h1>all interviews index</h1>
 
-
+	<div class="row">
 	<% if !@interviews.nil? %>
 		<% @interviews.each do |interview| %>
 
-		<div class="row">
+		
 		  <div class="col-xs-6 col-md-3">
 		    <a href="#" class="thumbnail">
 		      
-		      <%= image_tag interview.photo_url %>
+		      <%= image_tag interview.photo_url, 'data-src'=>"holder.js/100%x180", 'alt' => "..." %>
 		    </a>
-		  </div>
+		  
 		</div>
 
-			<h1><%= interview.id %></h1>
-			<h1><%= interview.title %></h1>
+			
 		<% end %>
 	<% end %>
+</div>
 </div>

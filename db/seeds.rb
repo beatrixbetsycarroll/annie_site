@@ -22,5 +22,23 @@
 
 Press.create(photo_url: "luckymag.jpg", title: "Young Guns: Fashion Kids on the Rise", source: "LuckyMag", description: "Our favorite young people making moves in the fashion space.", date: "2014", link: "http://www.luckymag.com/style/2012/06/Young-Guns-Fashion-Kids-on-the-Rise", feature: false, interview: true, other: false)
 
+Press.create(photo_url: "scene.jpg", title: "you should know… annie georgia greenberg", source: "LuckyMag", description: "Posted in Profiles by the editors", date: "April 2014", link: "http://scenemag.com/2014/04/you-should-know-annie-georgia-greenberg/", feature: false, interview: true, other: false)
+
+Press.create(photo_url: "luckymag.jpg", title: "Young Guns: Fashion Kids on the Rise", source: "LuckyMag", description: "Our favorite young people making moves in the fashion space.", date: "2014", link: "http://www.luckymag.com/style/2012/06/Young-Guns-Fashion-Kids-on-the-Rise", feature: false, interview: true, other: false)
+
+Press.create(photo_url: "scene.jpg", title: "you should know… annie georgia greenberg", source: "LuckyMag", description: "Posted in Profiles by the editors", date: "April 2014", link: "http://scenemag.com/2014/04/you-should-know-annie-georgia-greenberg/", feature: false, interview: true, other: false)
+
+Press.create(photo_url: "luckymag.jpg", title: "Young Guns: Fashion Kids on the Rise", source: "LuckyMag", description: "Our favorite young people making moves in the fashion space.", date: "2014", link: "http://www.luckymag.com/style/2012/06/Young-Guns-Fashion-Kids-on-the-Rise", feature: false, interview: true, other: false)
+
+Press.create(photo_url: "scene.jpg", title: "you should know… annie georgia greenberg", source: "LuckyMag", description: "Posted in Profiles by the editors", date: "April 2014", link: "http://scenemag.com/2014/04/you-should-know-annie-georgia-greenberg/", feature: false, interview: true, other: false)
+
+Press.create(photo_url: "luckymag.jpg", title: "Young Guns: Fashion Kids on the Rise", source: "LuckyMag", description: "Our favorite young people making moves in the fashion space.", date: "2014", link: "http://www.luckymag.com/style/2012/06/Young-Guns-Fashion-Kids-on-the-Rise", feature: false, interview: true, other: false)
+
+Press.create(photo_url: "scene.jpg", title: "you should know… annie georgia greenberg", source: "LuckyMag", description: "Posted in Profiles by the editors", date: "April 2014", link: "http://scenemag.com/2014/04/you-should-know-annie-georgia-greenberg/", feature: false, interview: true, other: false)
+
+Press.create(photo_url: "luckymag.jpg", title: "Young Guns: Fashion Kids on the Rise", source: "LuckyMag", description: "Our favorite young people making moves in the fashion space.", date: "2014", link: "http://www.luckymag.com/style/2012/06/Young-Guns-Fashion-Kids-on-the-Rise", feature: false, interview: true, other: false)
+
+Press.create(photo_url: "scene.jpg", title: "you should know… annie georgia greenberg", source: "LuckyMag", description: "Posted in Profiles by the editors", date: "April 2014", link: "http://scenemag.com/2014/04/you-should-know-annie-georgia-greenberg/", feature: false, interview: true, other: false)
+
 
 
