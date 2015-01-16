@@ -11,9 +11,9 @@ class ItemsController < ApplicationController
 		@items = Item.includes(:types).where('types.name' => "project").all
 	end
 
-	def fashion_index
-		@items = Item.includes(:types).where('types.name' => "fashion").all
-	end
+	# def fashion_index
+	# 	@items = Item.includes(:types).where('types.name' => "fashion").all
+	# end
 
 	def video_index
 		@items = Item.includes(:types).where('types.name' => "video").all

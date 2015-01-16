@@ -1,8 +1,9 @@
 <h1>all projects index<h1>
 
-
+<% if !@projects.nil? %>
 <% @projects.each do |project| %>
 	<h1><%= project.id %></h1>
 	<h1><%= project.title %></h1>
 
+<% end %>
 <% end %>
